@@ -10,3 +10,5 @@ This is a simple yet functional **web-based calculator** built as part of **Task
 - 💡 User-friendly UI with responsive design  
 - 🌐 Built using HTML,CSS and Javascript
 
+
+
