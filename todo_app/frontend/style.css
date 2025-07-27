@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd; /* Light blue */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input and Button */
+input, button {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Task Lists */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+li span {
+  flex: 1;
+  word-wrap: break-word;
+}
+
+.btn-group {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-group button {
+  padding: 5px 10px;
+}
+
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+  input, button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li button {
+    margin-top: 5px;
+  }
+}
